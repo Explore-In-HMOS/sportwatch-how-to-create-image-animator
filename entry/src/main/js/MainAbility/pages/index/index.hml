@@ -1,0 +1,14 @@
+<div class="container" onswipe="touchMove">
+
+        <div class="weather-info">
+                <image class="img" src="/common/assets/contrast.png"></image>
+                <text class="date">{{date}}</text>
+        </div>
+
+        <text class="time">{{time}}</text>
+
+        <image-animator class="animator" ref="animator" iteration="1"  images="{{frames}}"
+                        onclick="handleStart" duration="2s" fillmode="none">
+        </image-animator>
+
+</div>
