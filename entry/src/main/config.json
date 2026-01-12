@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.imageanimator",
+    "bundleName": "com.hmosdemos.lite_wearable.how_to_create_image_animator",
     "vendor": "hmosdemos",
     "version": {
       "code": 1000000,
